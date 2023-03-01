@@ -1,0 +1,16 @@
+.video-sidebar{
+    position: absolute;
+    top: 55%;
+    right: 15px;
+    font-weight: 700;
+    color:whitesmoke;
+}
+
+.sidebar-tool{
+    padding:10px;
+    /* border:2px solid black; */
+    text-align: center;
+}
+p{
+    margin-top:-5px;
+}

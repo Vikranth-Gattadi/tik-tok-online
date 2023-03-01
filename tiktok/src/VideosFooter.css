@@ -1,0 +1,82 @@
+.video-footer {
+    position: relative;
+    color: whitesmoke;
+    bottom: 170px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.videofooter-text {
+    font-weight: 600;
+    flex: 1;
+}
+
+.videofooter-text>p {
+    padding-bottom: 10px;
+}
+
+.videofooter-text>h3 {
+    padding-bottom: 10px;
+}
+
+.videofooter-icon {
+    position: absolute;
+}
+
+.videofooter-ticker {
+    display: flex;
+}
+
+#scroll-container {
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 3s linear infinite;
+    -webkit-animation: my-animation 3s linear infinite;
+    animation: my-animation 3s linear infinite;
+}
+
+
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+}
+
+.footer-disk {
+    animation: spinTheDisk infinite 3s linear;
+    border-radius: 100%;
+    height: 40px;
+    /* filter: invert(1); */
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+
+}
+
+@keyframes spinTheDisk {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
